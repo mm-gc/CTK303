@@ -1,0 +1,116 @@
+body{
+    background-image:url('https://i.pinimg.com/736x/b7/db/f5/b7dbf5e84d145fa9e48baddc1c7eda46.jpg');
+    background-size:cover;
+    overflow-y:hidden;
+    font-family: berkshire;
+    font-size:20px;
+}
+
+@font-face {
+    font-family: berkshire;
+    src:url(https://dl.dropbox.com/s/49tg0oklrpc2u71/BerkshireSwash-Regular.ttf?);
+     
+}
+
+.grid{
+    margin:auto;
+    margin-top:20px;
+    grid-template-columns: repeat(15,1fr);
+    grid-template-rows: repeat(10,1fr);
+    display:grid;
+}
+
+.title{
+    grid-column: span 15;
+    font-family: berkshire;
+    color:rgb(56, 45, 38);
+    font-size:45px;
+    text-shadow: rgb(237, 222, 191) 1px 0 10px;
+    margin-left:40px;
+    margin-top:50px;
+}
+
+.main{
+    grid-row: 2 / span 3;
+    grid-column: 2 / span 4;
+    width:450px;
+    height:270px;
+    box-sizing: border-box;
+    border:3px solid rgb(163, 142, 121);
+    background:rgb(163, 142, 121);
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgb(163, 142, 121), 0px 0px 10px rgb(163, 142, 121), 0px 0px 10px rgb(163, 142, 121), 0px 0px 10px rgb(163, 142, 121), 0px 0px 14px rgb(163, 142, 121);  
+    margin-top: 100px;
+}
+
+.mtext{
+    margin:auto;
+    width:410px;
+    height:260px;
+    overflow-y:scroll;
+    margin-top:15px;
+    margin-bottom:15px;
+    line-height:40px;
+    color:rgb(56, 45, 38);
+}
+
+img.a{
+    position:absolute;
+    left: 350px;
+    top:390px;
+    transform:rotate(-32deg);
+}
+
+.pagedoll{
+    grid-row: 6 / span 2;
+    grid-column: 2 / span 2;
+    margin:auto;
+    position:relative;
+    top:-30px;
+    left: 20px;
+    animation: floating 2s ease-in-out infinite;
+}
+
+.pagedoll a:hover{
+    cursor:help;
+}
+
+@keyframes floating{
+    0%   {top:-30px;}
+    50%   {top:-70px;}
+}
+
+.right{
+    grid-row: 2 / span 4;
+    grid-column: 8 / span 6;
+    grid-template-rows: 450px auto;
+    display:grid;
+    row-gap: 5px;
+
+}
+
+.content{
+    box-sizing: border-box;
+    border:3px solid rgb();
+    background:rgb(237, 222, 191);
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgb(237, 222, 191), 0px 0px 10px rgb(237, 222, 191), 0px 0px 10px rgb(237, 222, 191), 0px 0px 10px rgb(237, 222, 191), 0px 0px 14px rgb(237, 222, 191);  
+    height:370px;
+    padding:15px;
+}
+
+.stills{
+    display:block;
+    margin:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    position:absolute;
+    bottom:120px;
+    right:115px;
+}
+
+.stills img{
+    width:200px;
+    margin:0;
+    padding-left:8px;
+}
