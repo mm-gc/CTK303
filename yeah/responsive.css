@@ -7,7 +7,7 @@ body{
 .info{
 	display:grid;
 	grid-template-columns: 11.3rem 1fr;
-	max-height:11rem;
+	/* max-height:11rem; */
 	/* background-color: rgb(241, 241, 241); */
 	padding-top:1.5rem;
 	padding-left:1.5rem;
@@ -65,7 +65,7 @@ body{
 @media all and (min-width: 35rem){
 	/* #user{ color: blue; } */
 	#avatar{width:11rem;}
-	.info{grid-template-columns: 14rem 1fr;padding-bottom:1.5rem;}
+	.info{grid-template-columns: 14rem 1fr;padding-bottom:.5rem;}
 	.info p{margin-top:2rem;}
 	.grid{width:36rem;}
 	.grid img{width:12rem;height:12rem;}
@@ -77,7 +77,7 @@ body{
 	/* #user { color: green; } */
 	body { max-width: 960px; margin: auto; }
 	#avatar{width:12rem;}
-	.info{grid-template-columns: 16rem 25rem;padding-bottom:2.5rem;padding-left:8rem;}
+	.info{grid-template-columns: 16rem 25rem;padding-bottom:.5rem;padding-left:8rem;}
 	.info p{margin-top:3rem;}
 	.grid{width:48rem;}
 	.grid img{width:16rem;height:16rem;}
