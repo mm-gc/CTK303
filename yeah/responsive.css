@@ -28,12 +28,16 @@ body{
 }
 
 #pro{
-	color:gray;
+	color:rgb(0, 0, 0);
 	line-height:3rem;
 }
 
 #bio{
 	line-height:1rem;
+}
+
+h6{
+	text-align: center;
 }
 
 .grid{
